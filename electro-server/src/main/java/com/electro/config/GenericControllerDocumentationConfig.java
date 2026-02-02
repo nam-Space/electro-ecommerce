@@ -12,7 +12,8 @@ import org.springframework.web.servlet.function.ServerResponse;
 import java.util.function.Consumer;
 
 /**
- * Class này dùng để đăng ký tài liệu API cho các resource sử dụng GenericController
+ * Class này dùng để đăng ký tài liệu API cho các resource sử dụng
+ * GenericController
  */
 @Configuration
 public class GenericControllerDocumentationConfig {

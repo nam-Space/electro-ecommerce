@@ -1,6 +1,7 @@
 package com.electro.dto.product;
 
 import com.electro.dto.general.ImageRequest;
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.databind.JsonNode;
 import lombok.Data;
 import org.springframework.lang.Nullable;
@@ -8,6 +9,7 @@ import org.springframework.lang.Nullable;
 import java.util.List;
 import java.util.Set;
 
+@JsonIgnoreProperties(ignoreUnknown = true)
 @Data
 public class ProductRequest {
     private String name;

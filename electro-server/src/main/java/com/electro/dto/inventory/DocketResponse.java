@@ -1,5 +1,6 @@
 package com.electro.dto.inventory;
 
+import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.Data;
 import org.springframework.lang.Nullable;
 
@@ -12,7 +13,9 @@ public class DocketResponse {
     private Instant createdAt;
     private Instant updatedAt;
     private Integer type;
+    @JsonProperty("code")
     private String code;
+
     private DocketReasonResponse reason;
     private WarehouseResponse warehouse;
     private Set<DocketVariantResponse> docketVariants;

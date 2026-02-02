@@ -44,7 +44,7 @@ public class Docket extends BaseEntity {
     @JsonBackReference
     private Warehouse warehouse;
 
-    @OneToMany(mappedBy = "docket", cascade = CascadeType.ALL)
+    @OneToMany(mappedBy = "docket", cascade = CascadeType.ALL, fetch = FetchType.EAGER)
     private Set<DocketVariant> docketVariants = new HashSet<>();
 
     @ManyToOne(fetch = FetchType.LAZY)

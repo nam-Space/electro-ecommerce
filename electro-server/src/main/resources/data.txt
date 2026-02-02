@@ -62,7 +62,7 @@ VALUES ('2021-10-06 19:21:11', '2022-05-03 08:50:28', '02 Moland Court', 9, 10);
 
 -- user TABLE: 20 records
 INSERT INTO user (created_at, updated_at, username, password, fullname, email, phone, gender, address_id, avatar, status)
-VALUES ('2021-10-05 07:30:07', '2021-06-03 16:38:23', 'dnucator0', '$2a$10$VsJWsj.z4mu7hwgl24mbLO4kINGNU3NntESfPiZbnslKDts.RqEl6', 'Dolly Nucator', 'dnucator0@prweb.com', '0919944705', 'M', 1, 'http://dummyimage.com/138x100.png/dddddd/000000', 1);
+VALUES ('2021-10-05 07:30:07', '2021-06-03 16:38:23', 'admin', '$2a$12$7VcWj2D.KkPF/6cn4wiNzeHwokqcSavFui3.62eOBCGEinonO.DZe', 'Dolly Nucator', 'dnucator0@prweb.com', '0919944705', 'M', 1, 'http://dummyimage.com/138x100.png/dddddd/000000', 1);
 INSERT INTO user (created_at, updated_at, username, password, fullname, email, phone, gender, address_id, avatar, status)
 VALUES ('2022-01-07 17:51:29', '2022-02-24 10:37:18', 'jgratten1', '$2a$10$VsJWsj.z4mu7hwgl24mbLO4kINGNU3NntESfPiZbnslKDts.RqEl6', 'Jose Gratten', 'jgratten1@google.co.jp', '0919944709', 'F', 2, 'http://dummyimage.com/222x100.png/ff4444/ffffff', 1);
 INSERT INTO user (created_at, updated_at, username, password, fullname, email, phone, gender, address_id, avatar, status)
